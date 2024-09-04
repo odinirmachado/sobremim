@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Portfolio Page</title>
+  <meta content="#181d23" name="theme-color" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta name="author" content="Yago Estévez" />
+  <meta name="description" content="Portfolio Website by Yago Estévez" />
+  <meta name="keywords" content="portfolio, css, javascript, software, coding, programming, web, development, developer, fullstack, frontend, freecodecamp, es2015" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div class="menu-container false">
+    <div class="overlay"></div>
+    <div class="menu-items">
+      <ul>
+        <li><a href="#welcome-section">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="social"><a href="https://twitter.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Twitter profile"> <i class="fab fa-twitter"></i></a><a id="profile-link" href="https://github.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's GitHub Profile"> <i class="fab fa-github"></i></a><a href="https://codepen.io/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Codepen Profile"> <i class="fab fa-codepen"></i></a></div>
+    </div>
+  </div>
+  <nav id="navbar">
+    <div class="nav-wrapper">
+      <p class="brand">odinir<strong>machado</strong></p><a class="menu-button"><span></span></a>
+    </div>
+  </nav>
+  <header id="welcome-section">
+    <div class="forest"></div>
+    <div class="silhouette"></div>
+    <div class="moon"></div>
+    <div class="container">
+      <h1><span class="line">Designer</span><span class="line">Programador</span><span class="line"><span class="color">&amp;</span> estudante.</span></h1>
+      <div class="buttons"><a href="#projects">Meu Portifolio</a><a href="#contact" class="cta">CONTATO</a></div>
+    </div>
+  </header>
+  <section id="about">
+    <div class="wrapper">
+      <article>
+        <div class="title">
+          <h3>Quem é esse cara?</h3>
+          <p class="separator"></p>
+        </div>
+        <div class="desc full">
+          <h4 class="subtitle">Meu nome é Odinir.</h4>
+          <p>Sou desenvolvedor web e UX designer de Curitiba no sul do Brasil.</p>
+          <p>Eu realmente gosto de resolver problemas e também de tornar as coisas bonitas e fáceis de usar. Não consigo parar de aprender coisas novas; quanto mais, melhor. Também adoro fotografia, hobby que levo desde as boas e velhas câmeras de filme.</p>
+        </div>
+        <div class="title">
+          <h3>O que ele faz?</h3>
+          <p class="separator"></p>
+        </div>
+        <div class="desc">
+          <h4 class="subtitle">Eu sou um programador.</h4>
+          <p>Para o front-end costumo trabalhar com Javascript, seja standalone ou incluindo frameworks populares como ReactJS e VueJS. Também deixo a web bonita usando Sass, CSS e, sempre que necessário, algum de seus amigos: Bootstrap, Bulma, etc..</p>
+          <p>Para back-end também trabalho com Javascript (NodeJS, Express, MongoDB, etc). Mas, claro, sempre que o projeto requer PHP, eu faço PHP também (Wordpress, Laravel, etc).</p>
+        </div>
+        <div class="desc">
+          <h4 class="subtitle">E tambem sou designer.</h4>
+          <p>Sinto-me confortável trabalhando com muitos produtos Adobe. Photoshop, Illustrator, InDesign, Lightroom ou Xd são alguns tipos de padrões da indústria e adoro trabalhar com eles. Mas não estou limitado a eles: Gimp, Inkscape ou Figma também são aplicativos muito válidos com os quais tenho trabalhado.</p>
+          <p>Interfaces de usuário, brochuras, livros, branding... Você escolhe! Como mencionei, criar coisas bonitas é particularmente importante para mim.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="projects-container">
+      <div class="heading">
+        <h3 class="title">Meu Trabalhos</h3>
+        <p class="separator"></p>
+        <p class="subtitle">Aqui está uma lista da <u>maioria</u> dos projetos nos quais tenho trabalhado ultimamente. Tudo isso foi criado durante minha aventura no acampamento de codificação no <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>, onde estive codificando por quase 7 meses sem parar até concluir todos os projetos necessários para obter minha certificação Full-Stack Developer.</p>
+      </div>
+      <div class="projects-wrapper">
+        <div class="project"><a class="project-link" href="https://yagoestevez-anon-msg-board.glitch.me/" target="_blank" rel="noopener noreferrer"><img class="project-image" src="https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/AnonMsgBoard.jpg" alt="Screenshot of Anonymous Message Board."></a>
+          <div class="project-details">
+            <div class="project-tile">
+              <p class="icons"><i class="fab fa-js-square"></i><i class="fab fa-css3-alt"></i><i class="fab fa-react"></i><i class="fab fa-node"></i></p>Quadro de mensagens anônimas.
+            </div><small>Construído usando Node, Express, MongoDB, CSS + Bulma, React.js e React Router.</small>
+            <p>Este é um site full-stack que criei que permite aos usuários ler e postar mensagens e respostas anônimas.</p>
+            <div class="buttons"><a href="https://github.com/yagoestevez/anonymous-message-board" target="_blank" rel="noopener noreferrer">Ver fonte <i class="fas fa-external-link-alt"></i></a><a href="https://yagoestevez-anon-msg-board.glitch.me/" target="_blank" rel="noopener noreferrer">Teste <i class="fas fa-external-link-alt"></i></a></div>
+          </div>
+        </div>
+        <div class="project"><a class="project-link" href="https://yagoestevez-stock-price-checker.glitch.me/" target="_blank" rel="noopener noreferrer"><img class="project-image" src="https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg" alt="Screenshot of Stock Price Checker."></a>
+          <div class="project-details">
+            <div class="project-tile">
+              <p class="icons"><i class="fab fa-js-square"></i><i class="fab fa-node"></i><i class="fab fa-css3-alt"></i></p>Verificador de preço de ações.
+            </div><small>Construído usando Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap e Pug.</small>
+            <p>Aoutro site full-stack para verificar o valor atual de qualquer ação solicitada no mercado.</p>
+            <div class="buttons"><a href="https://github.com/yagoestevez/fcc-stock-price-checker" target="_blank" rel="noopener noreferrer">Ver fonte <i class="fas fa-external-link-alt"></i></a><a href="https://yagoestevez-stock-price-checker.glitch.me/" target="_blank" rel="noopener noreferrer">Teste <i class="fas fa-external-link-alt"></i></a></div>
+          </div>
+        </div>
+        <div class="project"><a class="project-link" href="https://cortala.glitch.me/example" target="_blank" rel="noopener noreferrer"><img class="project-image" src="https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Cortala.jpg" alt="Screenshot of URL Shortener Microservice."></a>
+          <div class="project-details">
+            <div class="project-tile">
+              <p class="icons"><i class="fab fa-js-square"></i><i class="fab fa-node"></i><i class="fab fa-css3-alt"></i></p>Microsserviço encurtador de URL.
+            </div><small>Construído usando Node, Express, CSS + Bootstrap e Pug.</small>
+            <p>Um microsserviço que usa uma URL bruta e a transforma em um link curto para facilitar o envio pela Internet.</p>
+            <div class="buttons"><a href="https://github.com/yagoestevez/cortala" target="_blank" rel="noopener noreferrer">View source <i class="fas fa-external-link-alt"></i></a><a href="https://cortala.glitch.me/example" target="_blank" rel="noopener noreferrer">Try it Live <i class="fas fa-external-link-alt"></i></a></div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="heading-wrapper">
+        <div class="heading">
+          <p class="title">Quer entrar em<br>contato?</p>
+          <p class="separator"></p>
+        </div>
+        <div class="social"><a href="https://twitter.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Twitter profile"> <i class="fab fa-twitter"></i></a><a id="profile-link" href="https://github.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's GitHub Profile"> <i class="fab fa-github"></i></a><a href="https://codepen.io/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Codepen Profile"> <i class="fab fa-codepen"></i></a></div>
+      </div>
+      <form id="contact-form" action="#"><input placeholder="Name" name="name" type="text" required=""><input placeholder="Email" name="email" type="email" required=""><textarea placeholder="Message" type="text" name="message"></textarea><input class="button" id="submit" type="submit" value="Submit"></form>
+    </div>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <h3>THANKS FOR VISITING</h3>
+      <p>© 2024 Yago Estévez.</p>
+      <div class="social"><a href="https://twitter.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Twitter profile"> <i class="fab fa-twitter"></i></a><a id="profile-link" href="https://github.com/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's GitHub Profile"> <i class="fab fa-github"></i></a><a href="https://codepen.io/yagoestevez" target="_blank" rel="noopener noreferrer" title="Link to author's Codepen Profile"> <i class="fab fa-codepen"></i></a></div>
+    </div>
+  </footer>
+</div>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://unpkg.com/react@16/umd/react.production.min.js'></script>
+<script src='https://unpkg.com/react-dom@16/umd/react-dom.production.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
